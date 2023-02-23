@@ -18,17 +18,18 @@ In addition to these features, Crab also supports various other options, such as
 
 ## Install crab
 
-- with crates.io:
+1. Installing from crates.io:
 
-```bash
-cargo install crab
-```
+Make sure you have Rust and Cargo installed on your system. You can check this by running rustc --version and cargo --version in your terminal.
+Run the command cargo install crab in your terminal.
+Wait for the installation process to complete. Once it's finished, you should be able to use the crab library in your Rust projects.
 
-- from sources
+2. Installing from sources:
 
-```bash
-cargo install --path /path/to/crab/repo/
-```
+Clone the crab repository to your local machine using git clone https://github.com/hopv/crab.git or download the source code from the project's GitHub page and extract it to a directory of your choice.
+Open a terminal window and navigate to the directory where you've cloned or extracted the crab repository.
+Run the command cargo install --path . or cargo install --path /path/to/crab/repo/, depending on your directory structure.
+Wait for the installation process to complete. Once it's finished, you should be able to use the crab library in your Rust projects.
 
 ## Usage of Crab
 
