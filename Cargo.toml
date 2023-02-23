@@ -1,0 +1,16 @@
+[package]
+name = "crab"
+version = "0.2.2"
+authors = ["helenyjx"]
+license-file = "LICENSE"
+description = "Crab: CIL scraping tool"
+
+
+[dependencies]
+clap = "2.31.2"
+ansi_term = "0.12"
+markup5ever_rcdom = "0.1.0"
+html5ever = "0.25.1"
+attohttpc = "0.12.0"
+scraper = "0.11.0"
+url = "2.1.1"
