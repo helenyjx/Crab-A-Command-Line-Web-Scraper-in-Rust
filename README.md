@@ -40,12 +40,45 @@ $ crab <url>
 ```
 This will print the DOM tree of the website at the specified URL.
 
+For example, if you ran the command crab https://www.google.com/, the output might look something like this:
+
+```
+html
+├── head
+│   ├── meta
+│   ├── title
+│   ├── link
+│   ├── script
+│   └── ...
+└── body
+    ├── div
+    │   ├── input
+    │   ├── button
+    │   └── ...
+    ├── form
+    │   ├── input
+    │   └── ...
+    ├── span
+    │   └── ...
+    ├── script
+    └── ...
+```
+
 - To print the DOM tree of specific tags, you can use the following command:
 
 ```bash
 $ crab <url> get <css-selector>
 ```
 This will print the DOM tree of all elements that match the specified CSS selector.
+
+For example, if you ran the command crab https://www.google.com/ get input, the output might look something like this:
+
+```
+input
+├── input
+├── button
+└── input
+```
 
 - Crab also supports several extra options:
 
